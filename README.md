@@ -93,7 +93,7 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = true,
+		TeamCheck = false,
 		AliveCheck = true,
 		WallCheck = false,
 
