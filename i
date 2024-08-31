@@ -112,7 +112,7 @@ getgenv().ExunysDeveloperAimbot = {
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
 		LockPart = "HumanoidRootPart", -- Body part to lock on
 
-		TriggerKey = Enum.UserInputType.MouseButton2,
+		TriggerKey = Enum.UserInputType.MouseButton1,
 		Toggle = false
 	},
 
@@ -120,7 +120,7 @@ getgenv().ExunysDeveloperAimbot = {
 		Enabled = true,
 		Visible = true,
 
-		Radius = 18,
+		Radius = 20,
 		NumSides = 60,
 
 		Thickness = 0,
