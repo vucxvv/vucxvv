@@ -100,10 +100,10 @@ getgenv().ExunysDeveloperAimbot = {
 		AliveCheck = true,
 		WallCheck = true,
 
-		OffsetToMoveDirection = false,
+		OffsetToMoveDirection = true,
 		OffsetIncrement = 15,
 
-		Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
+		Sensitivity = 0.17, -- Animation length (in seconds) before fully locking onto target
 		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
@@ -121,7 +121,7 @@ getgenv().ExunysDeveloperAimbot = {
 		NumSides = 60,
 
 		Thickness = 1,
-		Transparency = 1,
+		Transparency = 0.1,
 		Filled = false,
 
 		RainbowColor = false,
