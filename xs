@@ -96,20 +96,20 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = true,
+		TeamCheck = false,
 		AliveCheck = true,
 		WallCheck = true,
 
 		OffsetToMoveDirection = false,
 		OffsetIncrement = 15,
 
-		Sensitivity = 0.19, -- Animation length (in seconds) before fully locking onto target
+		Sensitivity = 0.1, -- Animation length (in seconds) before fully locking onto target
 		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
 		LockPart = "HumanoidRootPart", -- Body part to lock on
 
-		TriggerKey = Enum.UserInputType.MouseButton1,
+		TriggerKey = Enum.UserInputType.XBUTTON1,
 		Toggle = false
 	},
 
