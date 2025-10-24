@@ -43,7 +43,7 @@ for _, player in pairs(players:GetPlayers()) do
     end  
 
     if player.Team == local_player.Team or are_touching then  
-        player_humanoid_root_part.Size = Vector3.new(3,3,3)  
+        player_humanoid_root_part.Size = Vector3.new(4,4,4)  
         player_humanoid_root_part.Transparency = 0.99  
         player_humanoid_root_part.BrickColor = player.Team.TeamColor  
         player_humanoid_root_part.Shape = Enum.PartType.Ball  
@@ -51,7 +51,7 @@ for _, player in pairs(players:GetPlayers()) do
         continue  
     end  
 
-    player_humanoid_root_part.Size = Vector3.new(3,3,3)  
+    player_humanoid_root_part.Size = Vector3.new(4,4,4)  
     player_humanoid_root_part.Transparency = 0.9  
     player_humanoid_root_part.BrickColor = player.Team.TeamColor  
     player_humanoid_root_part.Shape = Enum.PartType.Ball  
