@@ -1,4 +1,3 @@
-
 --[[
 
 	Universal Aimbot Module by Exunys © CC0 1.0 Universal (2023 - 2024)
@@ -99,10 +98,10 @@ getgenv().ExunysDeveloperAimbot = {
 
 		TeamCheck = true,
 		AliveCheck = true,
-		WallCheck = true,
+		WallCheck = false,
 
-		OffsetToMoveDirection = true,
-		OffsetIncrement = 3,
+		OffsetToMoveDirection = false,
+		OffsetIncrement = 15,
 
 		Sensitivity = 0.11, -- Animation length (in seconds) before fully locking onto target
 		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
@@ -111,14 +110,14 @@ getgenv().ExunysDeveloperAimbot = {
 		LockPart = "HumanoidRootPart", -- Body part to lock on
 
 		TriggerKey = Enum.UserInputType.MouseButton2,
-		Toggle = true
+		Toggle = false
 	},
 
 	FOVSettings = {
 		Enabled = true,
 		Visible = true,
 
-		Radius = 20,
+		Radius = 30,
 		NumSides = 60,
 
 		Thickness = 1,
